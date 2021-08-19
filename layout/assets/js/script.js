@@ -4,7 +4,7 @@ $(document).ready(function () {
         loop: true,
         margin: 17,
         nav: false,
-        autoplay: false,
+        autoplay: true,
         dotsClass: 'btn-area',
         dotClass: 'btn-switch-new',
         dotsEach: true,
