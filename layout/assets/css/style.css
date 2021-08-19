@@ -676,6 +676,10 @@ ul {
 }
 
 @media only screen and (max-width: 600px) {
+    .owl-carousel .owl-item img {
+        height: unset;
+    }
+
     .top-nav {
         text-align: center;
         flex-direction: column;
