@@ -411,6 +411,7 @@ ul {
 }
 
 .news-items {
+    overflow: hidden;
     width: 60%;
     margin: 0 auto;
     display: flex;
@@ -422,7 +423,6 @@ ul {
 }
 
 .card-item {
-    width: 32%;
     background-color: #ffffff;
     font-family: OpenSan, sans-serif;
 }
@@ -460,13 +460,15 @@ ul {
     height: 1em;
     background-color: #B2A7C7;
     border-radius: 50%;
+    border: none;
 }
 
 .btn-switch-new.active {
-    width: 1em;
-    height: 1em;
+    width: 1.2em;
+    height: 1.2em;
     background-color: #8361B6;
     border-radius: 50%;
+    border: none;
 }
 
 .switch-news {
@@ -475,10 +477,11 @@ ul {
 
 .btn-area {
     display: flex;
-    gap: 0.8em;
+    gap: 0.6em;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-top: 1.6em;
 }
 
 .news-image {
@@ -808,13 +811,16 @@ ul {
     }
 
     .main-menu {
-        display: none;
         width: 100%;
         font-size: 14px;
         background-color: #222222;
         padding: 1em;
         line-height: 1.5em;
         color: #bdbdbd;
+    }
+
+    .close-main-menu {
+        display: none;
     }
 
     .main-menu ul {
@@ -842,4 +848,9 @@ ul {
     .social-icons {
         justify-content: space-evenly;
     }
+}
+
+.no-js .owl-carousel, .owl-carousel.owl-loaded {
+    width: 60%;
+    margin: 0 auto;
 }
