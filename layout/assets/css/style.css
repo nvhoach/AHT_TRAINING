@@ -672,7 +672,13 @@ ul {
     display: none;
 }
 
-@media only screen and (max-width: 500px) {
+.slider {
+    width: 60%;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+@media only screen and (max-width: 600px) {
     .top-nav {
         text-align: center;
         flex-direction: column;
@@ -848,9 +854,9 @@ ul {
     .social-icons {
         justify-content: space-evenly;
     }
-}
 
-.no-js .owl-carousel, .owl-carousel.owl-loaded {
-    width: 60%;
-    margin: 0 auto;
+    .slider {
+        width: 100%;
+        margin: 0 auto;
+    }
 }
