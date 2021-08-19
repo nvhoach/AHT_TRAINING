@@ -284,23 +284,24 @@ ul {
 }
 
 .featured-heading > p {
-    font-size: 14px;
+    font-size: 11px;
     font-weight: bold;
     color: #733ecc;
-    letter-spacing: 0.3em;
+    letter-spacing: 8px;
 }
 
 .featured-heading > h2 {
-    text-decoration: inherit;
     line-height: 2em;
     font-weight: bold;
-    font-size: 20px;
-    letter-spacing: 6px;
+    font-size: 23px;
+    letter-spacing: 3px;
 }
 
 .featured-heading .line-break {
-    border-bottom: 1px solid #733ecc;
-    width: 5%;
+    width: 4.8%;
+    height: 1px;
+    background-color: #733ecc;
+    margin-top: 15px;
 }
 
 .products {
@@ -397,16 +398,16 @@ ul {
 .news-heading > p {
     font-family: Montserrat, sans-serif;
     font-weight: bold;
-    letter-spacing: 3px;
+    letter-spacing: 6px;
     color: #7856B1;
     margin-bottom: 10px;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .news-heading > .line-break {
     height: 1px;
     background-color: #8464B6;
-    width: 4%;
+    width: 2.6%;
     margin: 2em auto;
 }
 
@@ -434,14 +435,14 @@ ul {
 }
 
 .news-meta {
-    padding: 10px;
+    padding: 20px;
 }
 
 .meta-footer {
     display: flex;
-    gap: 1em;
+    gap: 2.2em;
     color: #C7C7C7;
-    padding: 1em;
+    padding: 15px 25px;
     border-top: 1px solid #EDEDED;
     font-size: 14px;
 }
@@ -477,7 +478,7 @@ ul {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 3.4em;
+    margin-top: 2.2em;
 }
 
 .news-image {
