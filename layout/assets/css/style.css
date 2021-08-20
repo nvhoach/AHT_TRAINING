@@ -676,6 +676,7 @@ ul {
 
     .banner-3 img, .banner-2 img {
         position: relative;
+        display: flex;
     }
 
     .footer {
