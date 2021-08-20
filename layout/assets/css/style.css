@@ -674,6 +674,10 @@ ul {
 
 @media only screen and (max-width: 767px) {
 
+    .banner-3 img, .banner-2 img {
+        position: relative;
+    }
+
     .footer {
         font-size: 13px;
     }
@@ -718,7 +722,7 @@ ul {
         display: block;
         align-items: unset;
         border-bottom: 1px solid #E8E8E8;
-        margin-bottom: 1.7em;
+        margin-bottom: 0;
     }
 
     .wrap-content {
@@ -794,12 +798,7 @@ ul {
     }
 
     .banner-2 {
-        height: 15rem;
-        margin-bottom: 5%;
-    }
-
-    .banner-3 {
-        height: 15rem;
+        margin-bottom: 3%;
     }
 
     .footer .footer-heading {
