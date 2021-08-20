@@ -2,9 +2,9 @@
 $(document).ready(function () {
     $('.owl-carousel').owlCarousel({
         loop: true,
-        margin: 17,
+        margin: 19,
         nav: false,
-        autoplay: true,
+        // autoplay: true,
         dotsClass: 'btn-area',
         dotClass: 'btn-switch-new',
         dotsEach: true,

@@ -674,6 +674,10 @@ ul {
 
 @media only screen and (max-width: 767px) {
 
+    .footer {
+        font-size: 13px;
+    }
+
     .top-nav {
         text-align: center;
         flex-direction: column;
@@ -893,6 +897,10 @@ ul {
 }
 
 @media only screen and (min-width: 768px) {
+    .footer {
+        font-size: 13px;
+    }
+
     .banner-2-text p:nth-child(1),
     .banner-2-text p:nth-child(2) {
         font-size: 1em;
@@ -980,6 +988,10 @@ ul {
 }
 
 @media only screen and (min-width: 1024px) {
+    .footer {
+        font-size: 15px;
+    }
+
     .products .item {
         width: 23%;
     }
@@ -998,6 +1010,10 @@ ul {
 }
 
 @media only screen and (min-width: 1440px) {
+    .footer {
+        font-size: 15px;
+    }
+
     .text-logo {
         padding: 5px 10px;
         font-size: 20px;
@@ -1026,6 +1042,10 @@ ul {
 }
 
 @media only screen and (min-width: 1920px) {
+    .footer {
+        font-size: 15px;
+    }
+
     .footer .footer-content, .footer-copyright {
         width: 60%;
     }
