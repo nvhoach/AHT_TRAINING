@@ -151,9 +151,8 @@ ul {
 }
 
 .header-text-2 {
-    right: 12%;
+    right: 9%;
     top: 50%;
-    transform: translate(0%, 0%);
     text-align: end;
     font-size: 2em;
     font-weight: bold;
